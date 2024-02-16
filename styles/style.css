@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ body{
+    width: 80%;
+    margin: 0 auto;
+} 
+
+/* header */
+
+header article{
+    background-image: linear-gradient(black, rgba(0, 0, 0, 0.041)),  url('../resources/Banner\ Image.png');
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+/* main */
+main > section{
+    margin: 30px 0 20px 0;
+    font-weight: 700;
+    text-align: center;
+    color: red;
+}
+
+main > section p{
+    font-size: 12px;
+}
+
+main > section img{
+    margin-top: 10px;
+    height: 200px;
+}
+
+.welcome-banner article{
+    background-image: linear-gradient(to right, black, rgba(0, 0, 0, 0.041)),  url('../resources/Vectorrr.png');
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    text-align: left;
+    color: white;
+    padding-left: 20px;
+    padding-top: 100px;
+    margin-top: 20px;
+    border-radius: 10px;
+    letter-spacing: 0.2rem;
+}
+
+.welcome-banner article a{
+    text-decoration: none;
+    color: white;
+    letter-spacing: 0;
+}
+
+.address-banner  article{
+    background-image: linear-gradient(rgb(255, 158, 158), rgba(250, 151, 151, 0), rgba(250, 151, 151, 0));
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    text-align: center;
+    padding-top: 100px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.address-banner  article button{
+    background-color: rgb(255, 30, 0);
+    border: 0;
+    padding: 8px 14px;
+    color: white;
+    font-weight: 800;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.bast-offer{
+    text-align: left;
+}
+
+.bast-offer > img{
+    padding: 15px;
+}
+
+.new-year-img{
+    height: 100px;
+}
