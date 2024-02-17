@@ -92,3 +92,19 @@ main > section img{
 .new-year-img{
     height: 100px;
 }
+
+
+/* gift section */
+.gift-section article{
+    text-align: left;
+    margin-top: 150px;
+}
+
+.img-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.img-container div{
+    padding:  0px 15px 0px 0px;
+}
